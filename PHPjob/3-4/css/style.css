@@ -1,0 +1,32 @@
+html {
+    font-family: serif;
+}
+
+body {
+    background-color: grey;
+}
+hr {
+    background-color: white;
+}
+div {
+    text-align: center;
+    margin-top: 50px;
+}
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+h3 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+p {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+form {
+    color: white;
+}
