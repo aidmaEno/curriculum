@@ -8,28 +8,28 @@ $langue = $_POST["langue"];
 $mysql_db = $_POST["mysql_db"];
 ?>
 
-<p><?php echo $my_name ; ?>さんの結果は・・・？</p>
+<p><?php echo $my_name; ?>さんの結果は・・・？</p>
 <p>①の答え</p>
 <p><?php
-if($p_number == 80) {
-    echo "正解！";
-}else {
-    echo "残念・・・";
-}
-?></p>
+    if ($p_number == 80) {
+        echo "正解！";
+    } else {
+        echo "残念・・・";
+    }
+    ?></p>
 <p>②の答え</p>
 <p><?php
-if($langue == "HTML") {
-    echo "正解！";
-}else {
-    echo "残念・・・";
-}
-?></p>
+    if ($langue == "HTML") {
+        echo "正解！";
+    } else {
+        echo "残念・・・";
+    }
+    ?></p>
 <p>③の答え</p>
 <p><?php
-if($mysql_db == "select") {
-    echo "正解！";
-}else {
-    echo "残念・・・";
-}
-?></p>
+    if ($mysql_db == "select") {
+        echo "正解！";
+    } else {
+        echo "残念・・・";
+    }
+    ?></p>
