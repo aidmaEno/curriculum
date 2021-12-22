@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        th, td {
+            padding : 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <select id="select" onchange="changeLang()">
+        <option value="選択してください">選択してください</option>
+        <option value="日本語">日本語</option>
+        <option value="English">English</option>
+        <option value="全て表示">全て表示</option>
+    </select>
+    <table>
+        <tr id="jp_words">
+            <th>日本</th>
+            <td>こんにちは</td>
+            <td>ありがとう</td>
+            <td>さようなら</td>
+        </tr>
+        <tr id="en_words">
+            <th>English</th>
+            <td>Hello</td>
+            <td>Thank you</td>
+            <td>Good Bye</td>
+        </tr>
+    </table>
+
+    <script>
+    function changeLang() {
+        let jp_words = document.getElementById('jp_words');
+        let en_words = document.getElementById('en_words');
+
+        if (document.getElementById('select')) {
+            id = document.getElementById('select').value;
+
+            if (id == '日本語') {
+                jp_words.style.display = "";
+                en_words.style.display = "none";
+                console.log(id);
+                
+            } else if (id == 'English') {
+                jp_words.style.display = "none";
+                en_words.style.display = "";
+                console.log(id);
+
+            } else if (id == '全て表示') {
+                jp_words.style.display = "";
+                en_words.style.display = "";
+                console.log(id);
+
+            }
+        }
+    }
+
+    </script>
+</body>
+</html>
