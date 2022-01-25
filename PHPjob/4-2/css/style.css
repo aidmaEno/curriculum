@@ -1,0 +1,61 @@
+body {
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+}
+.container {
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 120px;
+}
+.curriculum_logo {
+    background-color: #add8e6;
+    width: 200px;
+    height: 120px;
+    float: left;
+}
+.curriculum_logo img {
+    width: 200px;
+    height: 120px;
+}
+.welcome {
+    width: 800px;
+    height: 60px;
+    text-align: right;
+    float: left;
+    background-color: #87ceeb;
+}
+.last_login {
+    width: 800px;
+    height: 60px;
+    text-align: right;
+    float: left;
+    background-color: #00ffff;
+}
+table {
+    margin: 10px auto 10px;
+    border-collapse: collapse;
+    border: solid 1px white;
+    text-align: center;
+    align-items: center;
+}
+.tr {
+    width: 760px;
+}
+#title {
+    height: 15px;
+    padding: 10px;
+    background-color: #87ceeb;
+}
+#contents {
+    height: 10px;
+    padding: 3px 10px;
+    background-color: #e0ffff;
+}
+
+.company_name {
+    width: 1000px;
+    height: 50px;
+    background-color: #00ced1;
+    margin-top: 10px;
+}
